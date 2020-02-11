@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 79.0, 1372.0, 715.0 ],
+		"rect" : [ 34.0, 79.0, 972.0, 715.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -52,7 +52,7 @@
 					"numoutlets" : 4,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "signal", "signal", "", "" ],
-					"patching_rect" : [ 928.666665077209473, 454.666665434837341, 382.0, 196.0 ],
+					"patching_rect" : [ 931.666665077209473, 308.0, 382.0, 196.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_invisible" : 1,
@@ -86,16 +86,16 @@
 									"amount" : 0.0,
 									"amount_range" : 0.464,
 									"fine_freq" : 0.0,
-									"freq_range" : 0.128,
+									"freq_range" : 0.133858267716535,
 									"frequency" : 0.687937007874015,
 									"mod_freq" : 0.256,
-									"mod_freq_range" : 0.24,
+									"mod_freq_range" : 0.2420223787816,
 									"phase" : 0.0,
-									"spread" : 62.991982,
+									"spread" : 61.000000000000107,
 									"sync" : 0.0,
 									"sync_division" : 13.0,
 									"waveform" : 1.0,
-									"wet/dry" : 66.929133858267789
+									"wet/dry" : 0.0
 								}
 
 							}
@@ -121,16 +121,16 @@
 												"amount" : 0.0,
 												"amount_range" : 0.464,
 												"fine_freq" : 0.0,
-												"freq_range" : 0.128,
+												"freq_range" : 0.133858267716535,
 												"frequency" : 0.687937007874015,
 												"mod_freq" : 0.256,
-												"mod_freq_range" : 0.24,
+												"mod_freq_range" : 0.2420223787816,
 												"phase" : 0.0,
-												"spread" : 62.991982,
+												"spread" : 61.000000000000107,
 												"sync" : 0.0,
 												"sync_division" : 13.0,
 												"waveform" : 1.0,
-												"wet/dry" : 66.929133858267789
+												"wet/dry" : 0.0
 											}
 
 										}
@@ -165,135 +165,6 @@
 					"clickthrough" : 0,
 					"enablehscroll" : 0,
 					"enablevscroll" : 0,
-					"id" : "obj-46",
-					"lockeddragscroll" : 0,
-					"maxclass" : "newobj",
-					"numinlets" : 3,
-					"numoutlets" : 4,
-					"offset" : [ 0.0, 0.0 ],
-					"outlettype" : [ "signal", "signal", "", "" ],
-					"patching_rect" : [ 1311.333333492279053, 65.0, 472.0, 196.0 ],
-					"saved_attribute_attributes" : 					{
-						"valueof" : 						{
-							"parameter_invisible" : 1,
-							"parameter_longname" : "amxd~[7]",
-							"parameter_shortname" : "amxd~[7]",
-							"parameter_type" : 3
-						}
-
-					}
-,
-					"saved_object_attributes" : 					{
-						"active" : 0,
-						"parameter_enable" : 1,
-						"patchername" : "Max SpectralHarm.amxd",
-						"patchername_fallback" : "C74:/packages/Max for Live/patchers/Max Audio Effect/Max SpectralHarm/Max SpectralHarm.amxd"
-					}
-,
-					"snapshot" : 					{
-						"filetype" : "C74Snapshot",
-						"version" : 2,
-						"minorversion" : 0,
-						"name" : "snapshotlist",
-						"origin" : "max~",
-						"type" : "list",
-						"subtype" : "Undefined",
-						"embed" : 1,
-						"snapshot" : 						{
-							"name" : "Max SpectralHarm.amxd",
-							"origname" : "C74:/packages/Max for Live/patchers/Max Audio Effect/Max SpectralHarm/Max SpectralHarm.amxd",
-							"valuedictionary" : 							{
-								"parameter_values" : 								{
-									"DetuneL" : 0.0,
-									"DetuneR" : 0.0,
-									"Dry/Wet" : 100.0,
-									"Feedback" : 16.370078740157485,
-									"Gain" : 0.0,
-									"ModeL" : 0.0,
-									"ModeR" : 0.0,
-									"PanL" : -50.0,
-									"PanR" : 50.0,
-									"ShiftL" : 0.0,
-									"ShiftR" : 0.0,
-									"TranspL" : 0.0,
-									"TranspR" : 0.0,
-									"BeatL" : 1.0,
-									"BeatR" : 6.0,
-									"DelayL" : 1475.0,
-									"DelayR" : 750.0
-								}
-
-							}
-
-						}
-,
-						"snapshotlist" : 						{
-							"current_snapshot" : 0,
-							"entries" : [ 								{
-									"filetype" : "C74Snapshot",
-									"version" : 2,
-									"minorversion" : 0,
-									"name" : "Max SpectralHarm.amxd",
-									"origin" : "Max SpectralHarm.amxd",
-									"type" : "amxd",
-									"subtype" : "Undefined",
-									"embed" : 0,
-									"snapshot" : 									{
-										"name" : "Max SpectralHarm.amxd",
-										"origname" : "C74:/packages/Max for Live/patchers/Max Audio Effect/Max SpectralHarm/Max SpectralHarm.amxd",
-										"valuedictionary" : 										{
-											"parameter_values" : 											{
-												"DetuneL" : 0.0,
-												"DetuneR" : 0.0,
-												"Dry/Wet" : 100.0,
-												"Feedback" : 16.370078740157485,
-												"Gain" : 0.0,
-												"ModeL" : 0.0,
-												"ModeR" : 0.0,
-												"PanL" : -50.0,
-												"PanR" : 50.0,
-												"ShiftL" : 0.0,
-												"ShiftR" : 0.0,
-												"TranspL" : 0.0,
-												"TranspR" : 0.0,
-												"BeatL" : 1.0,
-												"BeatR" : 6.0,
-												"DelayL" : 1475.0,
-												"DelayR" : 750.0
-											}
-
-										}
-
-									}
-,
-									"fileref" : 									{
-										"name" : "Max SpectralHarm.amxd",
-										"filename" : "Max SpectralHarm.amxd.maxsnap",
-										"filepath" : "~/Documents/Max 8/Snapshots",
-										"filepos" : -1,
-										"snapshotfileid" : "13f98b250d831b50f74b727d3ab442ea"
-									}
-
-								}
- ]
-						}
-
-					}
-,
-					"text" : "amxd~ \"Max SpectralHarm.amxd\"",
-					"varname" : "amxd~[7]",
-					"viewvisibility" : 1
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"autosave" : 1,
-					"bgmode" : 1,
-					"border" : 0,
-					"clickthrough" : 0,
-					"enablehscroll" : 0,
-					"enablevscroll" : 0,
 					"id" : "obj-42",
 					"lockeddragscroll" : 0,
 					"maxclass" : "newobj",
@@ -313,6 +184,7 @@
 					}
 ,
 					"saved_object_attributes" : 					{
+						"active" : 0,
 						"parameter_enable" : 1,
 						"patchername" : "Nebula.amxd",
 						"patchername_fallback" : "C74:/packages/Max for Live/patchers/Max Audio Effect/Nebula/Nebula.amxd"
@@ -392,102 +264,6 @@
 			}
 , 			{
 				"box" : 				{
-					"autosave" : 1,
-					"bgmode" : 0,
-					"border" : 0,
-					"clickthrough" : 0,
-					"id" : "obj-4",
-					"maxclass" : "newobj",
-					"numinlets" : 2,
-					"numoutlets" : 8,
-					"offset" : [ 0.0, 0.0 ],
-					"outlettype" : [ "signal", "signal", "", "list", "int", "", "", "" ],
-					"patching_rect" : [ 1104.333342552185059, 288.999999165534973, 300.0, 100.0 ],
-					"save" : [ "#N", "vst~", "loaduniqueid", 0, "AUPitch.auinfo", ";" ],
-					"saved_attribute_attributes" : 					{
-						"valueof" : 						{
-							"parameter_invisible" : 1,
-							"parameter_longname" : "vst~",
-							"parameter_shortname" : "vst~",
-							"parameter_type" : 3
-						}
-
-					}
-,
-					"saved_object_attributes" : 					{
-						"bypass" : 1,
-						"parameter_enable" : 1,
-						"parameter_mappable" : 0
-					}
-,
-					"snapshot" : 					{
-						"filetype" : "C74Snapshot",
-						"version" : 2,
-						"minorversion" : 0,
-						"name" : "snapshotlist",
-						"origin" : "vst~",
-						"type" : "list",
-						"subtype" : "Undefined",
-						"embed" : 1,
-						"snapshot" : 						{
-							"pluginname" : "AUPitch.auinfo",
-							"plugindisplayname" : "AUPitch",
-							"pluginsavedname" : "",
-							"pluginsaveduniqueid" : 1953329268,
-							"version" : 1,
-							"isbank" : 0,
-							"isbase64" : 1,
-							"sliderorder" : [  ],
-							"slidervisibility" : [ 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 ],
-							"blob" : "388.hAGaoMGcv.y0AHv.DTfAGfPBJr.CM3.WsEla0YVXiQWcxUlbTQVXzE1UyUmXzkGbkckckI2bo8laTQWdvUlWxUlajUlbsDWcgwVZzkGUtEVakIQXvAGaOAA0..............PF..............P.Duo9.....HfP+UU.....CHDR.......ABgD......TfPvA......F.Df......vA.A.......f.P........I.........fB+.N......rvOSNyL....L7CP......PC+.L......3vO.B......OHDR.......D8vLyMC...DAPfB......R.Df......vDAAB......PQPf.......U.........fE+.H......bwO.B......X7Cf..fDz0FbzAA.RDVclgGD+kUUtklckI2bgwF.H.vE.PB.o.PL.jC.9.PS.HE.WEfKALS.0DfNAvC.......f.A.........vC..................P.FA"
-						}
-,
-						"snapshotlist" : 						{
-							"current_snapshot" : 0,
-							"entries" : [ 								{
-									"filetype" : "C74Snapshot",
-									"version" : 2,
-									"minorversion" : 0,
-									"name" : "AUPitch",
-									"origin" : "AUPitch.auinfo",
-									"type" : "AudioUnit",
-									"subtype" : "AudioEffect",
-									"embed" : 0,
-									"snapshot" : 									{
-										"pluginname" : "AUPitch.auinfo",
-										"plugindisplayname" : "AUPitch",
-										"pluginsavedname" : "",
-										"pluginsaveduniqueid" : 1953329268,
-										"version" : 1,
-										"isbank" : 0,
-										"isbase64" : 1,
-										"sliderorder" : [  ],
-										"slidervisibility" : [ 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 ],
-										"blob" : "388.hAGaoMGcv.y0AHv.DTfAGfPBJr.CM3.WsEla0YVXiQWcxUlbTQVXzE1UyUmXzkGbkckckI2bo8laTQWdvUlWxUlajUlbsDWcgwVZzkGUtEVakIQXvAGaOAA0..............PF..............P.Duo9.....HfP+UU.....CHDR.......ABgD......TfPvA......F.Df......vA.A.......f.P........I.........fB+.N......rvOSNyL....L7CP......PC+.L......3vO.B......OHDR.......D8vLyMC...DAPfB......R.Df......vDAAB......PQPf.......U.........fE+.H......bwO.B......X7Cf..fDz0FbzAA.RDVclgGD+kUUtklckI2bgwF.H.vE.PB.o.PL.jC.9.PS.HE.WEfKALS.0DfNAvC.......f.A.........vC..................P.FA"
-									}
-,
-									"fileref" : 									{
-										"name" : "AUPitch",
-										"filename" : "AUPitch.maxsnap",
-										"filepath" : "~/Documents/Max 8/Snapshots",
-										"filepos" : -1,
-										"snapshotfileid" : "4b6203f674604c35caaf4a15e20dd376"
-									}
-
-								}
- ]
-						}
-
-					}
-,
-					"text" : "vst~ AUPitch.auinfo",
-					"varname" : "vst~",
-					"viewvisibility" : 1
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-10",
 					"maxclass" : "newobj",
 					"numinlets" : 2,
@@ -524,7 +300,7 @@
 					"numoutlets" : 4,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "signal", "signal", "", "" ],
-					"patching_rect" : [ 744.000000238418579, 684.66666841506958, 577.0, 196.0 ],
+					"patching_rect" : [ 767.0, 553.66666841506958, 577.0, 196.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_invisible" : 1,
@@ -1548,7 +1324,16 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-51", 0 ],
+					"order" : 0,
+					"source" : [ "obj-25", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-6", 0 ],
+					"order" : 1,
 					"source" : [ "obj-25", 0 ]
 				}
 
@@ -1583,20 +1368,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-51", 1 ],
-					"source" : [ "obj-4", 1 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-51", 0 ],
-					"source" : [ "obj-4", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-25", 0 ],
 					"source" : [ "obj-41", 0 ]
 				}
@@ -1604,29 +1375,15 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-46", 1 ],
+					"destination" : [ "obj-51", 1 ],
 					"source" : [ "obj-42", 1 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-46", 0 ],
+					"destination" : [ "obj-51", 0 ],
 					"source" : [ "obj-42", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-4", 1 ],
-					"source" : [ "obj-46", 1 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-4", 0 ],
-					"source" : [ "obj-46", 0 ]
 				}
 
 			}
@@ -1676,16 +1433,14 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-4" : [ "vst~", "vst~", 0 ],
+			"obj-9" : [ "amxd~[3]", "amxd~[3]", 0 ],
+			"obj-51" : [ "amxd~[8]", "amxd~[8]", 0 ],
+			"obj-21" : [ "amxd~[4]", "amxd~[4]", 0 ],
+			"obj-15" : [ "amxd~[5]", "amxd~[5]", 0 ],
+			"obj-8" : [ "amxd~[2]", "amxd~[2]", 0 ],
+			"obj-6" : [ "amxd~", "amxd~", 0 ],
 			"obj-42" : [ "amxd~[6]", "amxd~[6]", 0 ],
 			"obj-5" : [ "amxd~[1]", "amxd~[1]", 0 ],
-			"obj-6" : [ "amxd~", "amxd~", 0 ],
-			"obj-15" : [ "amxd~[5]", "amxd~[5]", 0 ],
-			"obj-21" : [ "amxd~[4]", "amxd~[4]", 0 ],
-			"obj-8" : [ "amxd~[2]", "amxd~[2]", 0 ],
-			"obj-9" : [ "amxd~[3]", "amxd~[3]", 0 ],
-			"obj-46" : [ "amxd~[7]", "amxd~[7]", 0 ],
-			"obj-51" : [ "amxd~[8]", "amxd~[8]", 0 ],
 			"parameterbanks" : 			{
 
 			}
@@ -1758,13 +1513,6 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "AUPitch.maxsnap",
-				"bootpath" : "~/Documents/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../Documents/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "Nebula.amxd.maxsnap",
 				"bootpath" : "~/Documents/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../Documents/Max 8/Snapshots",
@@ -1774,19 +1522,6 @@
 , 			{
 				"name" : "Nebula.amxd",
 				"bootpath" : "C74:/packages/Max for Live/patchers/Max Audio Effect/Nebula",
-				"type" : "amxd",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "Max SpectralHarm.amxd.maxsnap",
-				"bootpath" : "~/Documents/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../Documents/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "Max SpectralHarm.amxd",
-				"bootpath" : "C74:/packages/Max for Live/patchers/Max Audio Effect/Max SpectralHarm",
 				"type" : "amxd",
 				"implicit" : 1
 			}
