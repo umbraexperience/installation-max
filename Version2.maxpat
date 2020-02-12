@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 79.0, 972.0, 715.0 ],
+		"rect" : [ 34.0, 79.0, 972.0, 711.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -39,6 +39,30 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-14",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 735.0, 271.0, 64.0, 22.0 ],
+					"text" : "wet/dry $1"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-4",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1229.0, 245.0, 65.0, 22.0 ],
+					"text" : "getparams"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"autosave" : 1,
 					"bgmode" : 1,
 					"border" : 0,
@@ -52,7 +76,7 @@
 					"numoutlets" : 4,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "signal", "signal", "", "" ],
-					"patching_rect" : [ 931.666665077209473, 308.0, 382.0, 196.0 ],
+					"patching_rect" : [ 896.666665077209473, 320.0, 382.0, 196.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_invisible" : 1,
@@ -95,7 +119,7 @@
 									"sync" : 0.0,
 									"sync_division" : 13.0,
 									"waveform" : 1.0,
-									"wet/dry" : 0.0
+									"wet/dry" : 100.0
 								}
 
 							}
@@ -130,7 +154,7 @@
 												"sync" : 0.0,
 												"sync_division" : 13.0,
 												"waveform" : 1.0,
-												"wet/dry" : 0.0
+												"wet/dry" : 100.0
 											}
 
 										}
@@ -269,7 +293,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 670.0, 135.0, 29.5, 22.0 ],
+					"patching_rect" : [ 693.0, 152.0, 29.5, 22.0 ],
 					"text" : "- 48"
 				}
 
@@ -1165,7 +1189,7 @@
 									"low-freq-offset" : 0.354330708661417,
 									"low-mod-freq" : 38.0,
 									"lowpass-resonance" : 0.647007874015748,
-									"wet-dry" : 0.0
+									"wet-dry" : 100.0
 								}
 
 							}
@@ -1198,7 +1222,7 @@
 												"low-freq-offset" : 0.354330708661417,
 												"low-mod-freq" : 38.0,
 												"lowpass-resonance" : 0.647007874015748,
-												"wet-dry" : 0.0
+												"wet-dry" : 100.0
 											}
 
 										}
@@ -1266,6 +1290,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-51", 0 ],
+					"source" : [ "obj-14", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-22", 1 ],
 					"source" : [ "obj-15", 1 ]
 				}
@@ -1324,16 +1355,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-51", 0 ],
-					"order" : 0,
-					"source" : [ "obj-25", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-6", 0 ],
-					"order" : 1,
 					"source" : [ "obj-25", 0 ]
 				}
 
@@ -1347,7 +1369,16 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-1", 0 ],
+					"order" : 0,
+					"source" : [ "obj-3", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-7", 0 ],
+					"order" : 1,
 					"source" : [ "obj-3", 0 ]
 				}
 
@@ -1368,7 +1399,23 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-51", 0 ],
+					"source" : [ "obj-4", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-14", 0 ],
+					"order" : 0,
+					"source" : [ "obj-41", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-25", 0 ],
+					"order" : 1,
 					"source" : [ "obj-41", 0 ]
 				}
 
@@ -1384,6 +1431,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-51", 0 ],
 					"source" : [ "obj-42", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-1", 0 ],
+					"source" : [ "obj-51", 3 ]
 				}
 
 			}
@@ -1433,14 +1487,14 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-9" : [ "amxd~[3]", "amxd~[3]", 0 ],
-			"obj-51" : [ "amxd~[8]", "amxd~[8]", 0 ],
-			"obj-21" : [ "amxd~[4]", "amxd~[4]", 0 ],
-			"obj-15" : [ "amxd~[5]", "amxd~[5]", 0 ],
-			"obj-8" : [ "amxd~[2]", "amxd~[2]", 0 ],
-			"obj-6" : [ "amxd~", "amxd~", 0 ],
 			"obj-42" : [ "amxd~[6]", "amxd~[6]", 0 ],
+			"obj-8" : [ "amxd~[2]", "amxd~[2]", 0 ],
+			"obj-15" : [ "amxd~[5]", "amxd~[5]", 0 ],
 			"obj-5" : [ "amxd~[1]", "amxd~[1]", 0 ],
+			"obj-9" : [ "amxd~[3]", "amxd~[3]", 0 ],
+			"obj-21" : [ "amxd~[4]", "amxd~[4]", 0 ],
+			"obj-51" : [ "amxd~[8]", "amxd~[8]", 0 ],
+			"obj-6" : [ "amxd~", "amxd~", 0 ],
 			"parameterbanks" : 			{
 
 			}
